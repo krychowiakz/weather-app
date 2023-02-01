@@ -1,0 +1,129 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  color: rgb(39, 39, 39);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 28px;
+  margin: 0;
+  padding: 10px;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+
+  margin: 0 0 10px;
+  padding: 10px;
+}
+
+li {
+  color: rgb(147, 74, 215);
+  font-size: 150px;
+  font-weight: 700;
+  margin-top: 4px;
+  margin-bottom: 10px;
+  line-height: 2;
+  list-style: none;
+  font-size: 20px;
+  height: 19px;
+  line-height: 1;
+  list-style: none;
+}
+
+.weather-app {
+  border: 0px solid #dadde1;
+
+  border-radius: 20px;
+  width: 700px;
+  padding: 15px;
+  margin: 20px auto;
+
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(215, 223, 252) 0%,
+    rgb(255, 255, 255) 0%,
+    rgb(215, 223, 252) 84%
+  );
+}
+
+.temperature {
+  color: rgb(39, 39, 39);
+  font-size: 80px;
+  font-weight: 400;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.units {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: rgb(55, 55, 55);
+  font-size: 20px;
+  position: relative;
+  top: -45px;
+  text-decoration: none;
+}
+
+.units:hover {
+  text-decoration: none;
+}
+
+.search-form {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+h1 {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.shadow-sm {
+  color: rgb(147, 74, 215);
+  background-color: rgba(138, 47, 217, 0);
+  border-color: rgb(147, 74, 215);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.shadow-sm:hover {
+  background-color: rgb(185, 153, 234);
+  font-weight: 500;
+  border-color: rgb(185, 153, 234);
+  color: rgb(255, 255, 255);
+}
+
+.btn-success {
+  position: relative;
+  top: -38px;
+  right: -370px;
+  background-color: rgba(138, 47, 217, 0);
+  border-color: rgb(147, 74, 215);
+  border-radius: 20px;
+  box-shadow: none;
+  color:rgb(147, 74, 215); 
+}
+.btn-success:hover {
+  background-color: rgb(185, 153, 234);
+  font-weight: 500;
+  border-color: rgb(185, 153, 234);
+}
+.humi {
+  font-size: 13px;
+  color: #626262;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  margin-bottom: -5px;
+}
+.wind {
+  font-size: 13px;
+  color: #626262;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
