@@ -65,9 +65,10 @@ li {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: rgb(55, 55, 55);
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
-  top: -25px;
+  top: -30px;
+  left: -18px;
   
   text-decoration: none;
 }
@@ -129,4 +130,11 @@ h1 {
   color: #626262;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+.link {
+  text-align: center;
+  position: relative;
+  top: -20px;
+  right: -640px;
 }

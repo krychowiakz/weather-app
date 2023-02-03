@@ -30,9 +30,9 @@ function formatDate(date) {
 function displayWeatherCondition(response) {
   let humidityElement = document.querySelector("#humidity");
   humidityElement.innerHTML = response.data.main.humidity;
- 
-
-
+  let temperatureElement = document.querySelector("#temperature");
+  celsiusTemperature = response.data.main.temp;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
   document.querySelector("#city").innerHTML = response.data.name;
   document.querySelector("#temperature").innerHTML = Math.round(
     response.data.main.temp
@@ -69,7 +69,7 @@ function handleSubmit(event) {
   searchCity(city);
 }
 
-function searchLocation(position) {
+function searchLocation ( position) {
   let apiKey = "30e3tb3d590d3bcbf64oa3a03af0b501";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
 
@@ -81,17 +81,8 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
 
-function convertToFahrenheit(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 66;
-}
 
-function convertToCelsius(event) {
-  event.preventDefault();
-  let temperatureElement = document.querySelector("#temperature");
-  temperatureElement.innerHTML = 19;
-}
+let celsiusTemperature = null;
 
 let dateElement = document.querySelector("#date");
 let currentTime = new Date();
