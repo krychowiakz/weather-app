@@ -57,13 +57,15 @@ li {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   padding: 10px;
+  position: relative;
+  top: 10px;
 }
 
 .units {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   color: rgb(55, 55, 55);
-  font-size: 20px;
+  font-size: 30px;
   position: relative;
   top: -45px;
   text-decoration: none;
@@ -107,7 +109,7 @@ h1 {
   border-color: rgb(147, 74, 215);
   border-radius: 20px;
   box-shadow: none;
-  color:rgb(147, 74, 215); 
+  color: rgb(147, 74, 215);
 }
 .btn-success:hover {
   background-color: rgb(185, 153, 234);
