@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h1 {
@@ -37,7 +37,7 @@ li {
   border: 0px solid #dadde1;
 
   border-radius: 20px;
-  width: 700px;
+  width: 800px;
   padding: 15px;
   margin: 20px auto;
 
@@ -106,7 +106,7 @@ h1 {
 .btn-success {
   position: relative;
   top: -38px;
-  right: -370px;
+  right: -420px;
   background-color: rgba(138, 47, 217, 0);
   border-color: rgb(147, 74, 215);
   border-radius: 20px;
@@ -135,6 +135,23 @@ h1 {
 .link {
   text-align: center;
   position: relative;
-  top: -20px;
-  right: -640px;
+  top: 0px;
+  right:-160px
+}
+
+.weather-forecast {
+text-align: center;
+
+font-size: 15px;
+}
+.container {
+  
+color: rgb(147, 74, 215);
+}
+
+.max-temp-forecast{
+  color: rgb(38, 38, 38);
+}
+.min-temp-forecast{
+  color: #858585;
 }
